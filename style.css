@@ -31,10 +31,20 @@ nav ul li {
     margin-left: 15px;
 }
 
-nav ul li a {
+nav ul li a:link,
+nav ul li a:visited {
     color: rgba(255, 255, 255, 0.85);
     font-size: 25px;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 2px solid rgba(232, 68, 68, 0.6);
+    border-top: 2px solid rgba(232, 68, 68, 0.6);
+    transition: border 0.2s;
 }
 
 .header-text {
