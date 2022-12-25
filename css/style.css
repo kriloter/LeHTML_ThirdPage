@@ -98,7 +98,25 @@ nav ul li a:active {
     background: rgba(232, 68, 68, 0.3);
 }
 
-.about-us p {
-    color: rebeccapurple;
+.heading-main h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.heading-main h2::after {
+    content: "";
+    display: block;
+    width: 200px;
+    border-bottom: 2px solid gray;
+    margin: 10px auto;
+}
+
+.about-text img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 3px gray;
+}
+
+.section1-text p {
     text-align: justify;
 }
