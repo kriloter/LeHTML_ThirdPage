@@ -97,3 +97,8 @@ nav ul li a:active {
     transition: background 0.5s;
     background: rgba(232, 68, 68, 0.3);
 }
+
+.about-us p {
+    color: rebeccapurple;
+    text-align: justify;
+}
