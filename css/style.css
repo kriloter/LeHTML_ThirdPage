@@ -119,4 +119,22 @@ nav ul li a:active {
 
 .section1-text p {
     text-align: justify;
+    margin-bottom: 15px;
+}
+
+.section1 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 3px gray;
+}
+
+.section2-text p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.section2 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 3px gray;
 }
